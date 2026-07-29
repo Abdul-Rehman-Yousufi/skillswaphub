@@ -146,3 +146,5 @@ app.listen(PORT, () => {
   console.log(`Frontend served from: http://localhost:${PORT}`);
   console.log(`API endpoint: http://localhost:${PORT}/api`);
 });
+// At the bottom of backend/server.js:
+module.exports = app;
